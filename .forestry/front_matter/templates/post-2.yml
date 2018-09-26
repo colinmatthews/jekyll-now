@@ -1,5 +1,5 @@
 ---
-label: Post 2
+label: Post
 hide_body: false
 is_partial: false
 fields:
@@ -11,12 +11,5 @@ fields:
     schema:
       format: markdown
     required: true
-- type: textarea
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Body
-  name: body
 pages:
 - _posts/2018-09-26-test.md
