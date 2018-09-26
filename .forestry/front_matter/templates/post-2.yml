@@ -18,3 +18,5 @@ fields:
       format: markdown
   label: Body
   name: body
+pages:
+- _posts/test.md
