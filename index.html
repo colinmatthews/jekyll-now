@@ -12,7 +12,7 @@ layout: default
         {{ post.excerpt }}
       </div>
       
-      <h4>{{ post.date }}</h4>
+      <p><i>{{ post.date | date: "%B %e, %Y" }}</i></p>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
