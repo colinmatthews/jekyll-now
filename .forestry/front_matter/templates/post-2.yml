@@ -1,0 +1,20 @@
+---
+label: Post 2
+hide_body: false
+is_partial: false
+fields:
+- type: textarea
+  name: title
+  label: Title
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+    required: true
+- type: textarea
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Body
+  name: body
